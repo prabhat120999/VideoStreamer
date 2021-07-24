@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="150dp" android:background="@drawable/dialog_shape" android:padding="10dp">
+
+    <TextView
+        android:text="@string/not_connected"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:id="@+id/textView" android:layout_centerInParent="false"
+        android:textSize="15sp" android:gravity="center" android:textStyle="bold"
+        android:fontFamily="sans-serif-black" android:textColor="#000" android:layout_marginTop="15dp"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:weightSum="2">
+        <Button
+            android:text="exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/exit" android:layout_weight="1"
+            android:background="#fff" android:textColor="@color/colorApp" android:textSize="15sp"
+            android:textStyle="bold"/>
+        <Button
+            android:text="try again"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/try_again" android:layout_weight="1"
+            android:background="#fff" android:textColor="@color/colorApp" android:textSize="15sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+</RelativeLayout>

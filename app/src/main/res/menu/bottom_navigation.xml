@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/song"
+        android:icon="@drawable/songs"
+        android:title="Songs" />
+    <item
+        android:id="@+id/movie"
+        android:icon="@drawable/movie"
+        android:title="Movies" />
+    <item
+        android:id="@+id/webseries"
+        android:icon="@drawable/webseries"
+        android:title="Web Series" />
+</menu>

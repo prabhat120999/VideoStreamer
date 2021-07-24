@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "128477699032",
+    "firebase_url": "https://kuchbhi-3dcaf.firebaseio.com",
+    "project_id": "kuchbhi-3dcaf",
+    "storage_bucket": "kuchbhi-3dcaf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:128477699032:android:774c3efd04f963bf5a30ad",
+        "android_client_info": {
+          "package_name": "com.example.kuchbhi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "128477699032-49sabeq0a7ktpqr97s1nivpa1jhoe6ne.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kuchbhi",
+            "certificate_hash": "51ba9e3e0799d8792ee05cff7d4219908bf93689"
+          }
+        },
+        {
+          "client_id": "128477699032-6gdtbussecub32rob452vc7c1vt51t7d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIonFRhLZx8ltYYhLiJNgiCEGLn78btvE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "128477699032-6gdtbussecub32rob452vc7c1vt51t7d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
